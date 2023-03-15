@@ -5,8 +5,11 @@ function TeacherNav() {
   return (
     
     <nav>
-        <h1 style={{ textAlign: 'left' , margin :'10px' }}>Espace professeur</h1>
+      
       <ul className="navbar">
+      
+      
+      <li><a href="#dashboard">Espace professeur</a></li>
         <li><a href="#dashboard">Tableau de bord</a></li>
         <li><a href="#groups">Mes groupes</a></li>
         <li><a href="#attendances">Mes émargements</a></li>
